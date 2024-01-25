@@ -1,7 +1,7 @@
 async function sendMessage() {
     var response="";
     var userInput = document.getElementById("user-input").value;
-    await fetch('http://localhost:5005/webhooks/rest/webhook', {
+    await fetch('http://20.2.216.184/webhooks/rest/webhook', {
     method: 'POST',
     headers: {  
       'Content-Type': 'application/json'
